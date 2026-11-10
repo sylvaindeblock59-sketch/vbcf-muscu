@@ -1,0 +1,649 @@
+{
+ "version_contenu": "2026-11-09",
+ "club": "VBCF · Volley Ball Cœur de Flandre",
+ "equipe": "N2F",
+ "jour_conseille": "Mercredi ou jeudi midi (entre l'entraînement du mardi et celui du vendredi)",
+ "regles_options": [
+  "Après le programme de poste, jamais à la place",
+  "Une option par séance (deux au maximum), changer d'une semaine à l'autre",
+  "Arrêter si la vitesse ou la technique baisse"
+ ],
+ "consignes_generales": [
+  "Charges : garder 2 répétitions en réserve sur les exercices de force",
+  "Exercices explosifs : arrêter la série dès que la vitesse baisse"
+ ],
+ "echauffement": {
+  "duree": "10 min",
+  "exercices": [
+   {
+    "id": "rot",
+    "dosage": [
+     "2 × 12 / bras",
+     "lent"
+    ]
+   },
+   {
+    "id": "cheville",
+    "dosage": [
+     "10 / côté",
+     "+ 6 passages 90/90"
+    ]
+   },
+   {
+    "id": "cmj",
+    "dosage": [
+     "2 × 5",
+     "récup complète"
+    ]
+   }
+  ]
+ },
+ "postes": [
+  {
+   "id": "centraux",
+   "nom": "Centraux",
+   "objectif": "Vitesse de déplacement latéral, hauteur de contre et réactivité au filet.",
+   "supersets": [
+    {
+     "lettre": "A",
+     "titre": "Bas du corps",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "tbdl",
+       "dosage": [
+        "3 × 10"
+       ]
+      },
+      {
+       "id": "skater",
+       "dosage": [
+        "3 × 6 / côté"
+       ]
+      }
+     ]
+    },
+    {
+     "lettre": "B",
+     "titre": "Épaules",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "military",
+       "dosage": [
+        "3 × 8"
+       ]
+      },
+      {
+       "id": "facepull",
+       "dosage": [
+        "3 × 15",
+        "contrôlé"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "attaque",
+   "nom": "Récep/Att & Pointu",
+   "objectif": "Hauteur de détente, puissance de frappe et absorption des chocs à la réception.",
+   "supersets": [
+    {
+     "lettre": "A",
+     "titre": "Force + pliométrie",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "squat",
+       "dosage": [
+        "3 × 8"
+       ]
+      },
+      {
+       "id": "boxjump",
+       "dosage": [
+        "3 × 4"
+       ]
+      }
+     ]
+    },
+    {
+     "lettre": "B",
+     "titre": "Haut du corps",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "bench",
+       "dosage": [
+        "3 × 8"
+       ]
+      },
+      {
+       "id": "pullover",
+       "dosage": [
+        "3 × 12"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "passeur",
+   "nom": "Passeur",
+   "objectif": "Force des poignets et avant-bras, gainage postural et réactivité sous le ballon.",
+   "supersets": [
+    {
+     "lettre": "A",
+     "titre": "Poussée + vitesse",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "landmine",
+       "dosage": [
+        "3 × 8 / bras"
+       ]
+      },
+      {
+       "id": "chestpass",
+       "dosage": [
+        "3 × 20 s",
+        "2–3 kg"
+       ]
+      }
+     ]
+    },
+    {
+     "lettre": "B",
+     "titre": "Épaule + poignet",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "incline",
+       "dosage": [
+        "3 × 10"
+       ]
+      },
+      {
+       "id": "wrist",
+       "dosage": [
+        "3 × 15",
+        "léger"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "libero",
+   "nom": "Libéro",
+   "objectif": "Vitesse de démarrage, posture basse prolongée et agilité.",
+   "supersets": [
+    {
+     "lettre": "A",
+     "titre": "Posture basse + démarrage",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "goblet",
+       "dosage": [
+        "3 × 10",
+        "+ 20 s en bas"
+       ]
+      },
+      {
+       "id": "sprint",
+       "dosage": [
+        "3 × 2 allers-retours"
+       ]
+      }
+     ]
+    },
+    {
+     "lettre": "B",
+     "titre": "Gainage + haut du corps",
+     "tours": 3,
+     "repos_sec": 90,
+     "exercices": [
+      {
+       "id": "renegade",
+       "dosage": [
+        "3 × 10",
+        "5 / bras"
+       ]
+      },
+      {
+       "id": "pushup",
+       "dosage": [
+        "3 × 10"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "options": [
+  {
+   "numero": 1,
+   "nom": "Puissance",
+   "but": "Sauter plus haut et frapper plus vite.",
+   "duree": "≈ 10 min",
+   "tours": 3,
+   "repos_sec": 60,
+   "exercices": [
+    {
+     "id": "tbdl",
+     "dosage": [
+      "4 × 4",
+      "lourd et rapide"
+     ],
+     "variante": "Version explosive"
+    },
+    {
+     "id": "mbthrow",
+     "dosage": [
+      "3 × 5 / côté",
+      "2–4 kg"
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "nom": "Prévention",
+   "but": "Protéger les ischios et les adducteurs. Utile à toutes les joueuses.",
+   "duree": "≈ 8 min",
+   "tours": 3,
+   "repos_sec": 60,
+   "exercices": [
+    {
+     "id": "nordic",
+     "dosage": [
+      "3 × 4",
+      "débuter à 2 × 3"
+     ]
+    },
+    {
+     "id": "copen",
+     "dosage": [
+      "2 × 20 s / côté"
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "nom": "Épaule & dos",
+   "but": "Équilibrer les poussées et protéger l'épaule qui frappe ou qui passe.",
+   "duree": "≈ 8 min",
+   "tours": 3,
+   "repos_sec": 60,
+   "exercices": [
+    {
+     "id": "row",
+     "dosage": [
+      "3 × 8"
+     ]
+    },
+    {
+     "id": "rot",
+     "dosage": [
+      "2 × 12 / bras"
+     ],
+     "variante": "Version renfort"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "nom": "Une jambe",
+   "but": "Appuis, réceptions et équilibre gauche/droite.",
+   "duree": "≈ 8 min",
+   "tours": 3,
+   "repos_sec": 60,
+   "exercices": [
+    {
+     "id": "bulgare",
+     "dosage": [
+      "2 × 6 / jambe"
+     ]
+    },
+    {
+     "id": "landmine",
+     "dosage": [
+      "2 × 6 / bras",
+      "demi-genou"
+     ],
+     "variante": "Version stabilité"
+    }
+   ]
+  }
+ ],
+ "matrice_options": {
+  "centraux": [
+   "possible",
+   "conseillee",
+   "possible",
+   "conseillee"
+  ],
+  "attaque": [
+   "moins_utile",
+   "conseillee",
+   "conseillee",
+   "possible"
+  ],
+  "passeur": [
+   "possible",
+   "conseillee",
+   "conseillee",
+   "possible"
+  ],
+  "libero": [
+   "possible",
+   "conseillee",
+   "moins_utile",
+   "conseillee"
+  ]
+ },
+ "exercices": {
+  "rot": {
+   "nom": "Rotations externes à l'élastique",
+   "objectif": "Réveille la coiffe des rotateurs avant les charges.",
+   "consignes": [
+    "Coude à hauteur d'épaule, bras à 90°",
+    "Monte l'avant-bras sans cambrer",
+    "Retour lent sur 2 secondes"
+   ],
+   "a_eviter": "Le coude qui descend.",
+   "video": "https://www.youtube.com/results?search_query=rotation%20externe%20%C3%A9lastique%2090%2090%20%C3%A9paule",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"58.55\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"8\" width=\"9\" height=\"106\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.2\"/><circle cx=\"8\" cy=\"52.3\" r=\"3\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"52.3\" x2=\"43.5\" y2=\"52.3\" stroke=\"var(--c-pas)\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.5\" y1=\"70.3\" x2=\"62\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"63.1\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"73.5\" y2=\"38.3\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"73.5\" y1=\"38.3\" x2=\"73.5\" y2=\"52.3\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"73.5\" y2=\"38.3\" stroke=\"var(--hl)\" stroke-width=\"3\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"32.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"70.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"70.3\" x2=\"55.1\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"55.1\" y1=\"92\" x2=\"54\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"58.5\" cy=\"25.3\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"58.5\" y1=\"38.3\" x2=\"43.5\" y2=\"38.3\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"43.5\" y1=\"38.3\" x2=\"43.5\" y2=\"52.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"43.5\" y2=\"38.3\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"55.1\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"43.5\" cy=\"38.3\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"58.55\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"8\" width=\"9\" height=\"106\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.2\"/><circle cx=\"8\" cy=\"54.3\" r=\"3\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"54.3\" x2=\"43.5\" y2=\"24.3\" stroke=\"var(--c-pas)\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.5\" y1=\"70.3\" x2=\"62\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"63.1\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"73.5\" y2=\"38.3\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"73.5\" y1=\"38.3\" x2=\"73.5\" y2=\"24.3\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"73.5\" y2=\"38.3\" stroke=\"var(--hl)\" stroke-width=\"3\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"32.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"70.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"70.3\" x2=\"55.1\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"55.1\" y1=\"92\" x2=\"54\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"58.5\" cy=\"25.3\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"58.5\" y1=\"38.3\" x2=\"43.5\" y2=\"38.3\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"43.5\" y1=\"38.3\" x2=\"43.5\" y2=\"24.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"43.5\" y2=\"38.3\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"55.1\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"43.5\" cy=\"38.3\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M35.5 52.3 Q25.5 38.3 35.5 24.299999999999997\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "cheville": {
+   "nom": "Genou au mur + mobilité hanches",
+   "objectif": "Une cheville mobile protège le genou à la réception.",
+   "consignes": [
+    "Talon collé au sol",
+    "Le genou avance vers le mur, dans l'axe du pied",
+    "Puis 90/90 assise : bascule les genoux d'un côté à l'autre"
+   ],
+   "a_eviter": "Le talon qui décolle.",
+   "video": "https://www.youtube.com/results?search_query=knee%20to%20wall%20ankle%20mobility",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"50\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"6\" width=\"9\" height=\"108\" fill=\"var(--prop2)\"/><line x1=\"9\" y1=\"6\" x2=\"9\" y2=\"114\" stroke=\"var(--prop)\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"92\" x2=\"71.7\" y2=\"110.7\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"71.7\" y1=\"110.7\" x2=\"92.7\" y2=\"110.7\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"92.7\" y1=\"110.7\" x2=\"99.7\" y2=\"110.7\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"54\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"92\" x2=\"38\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"38\" y1=\"92\" x2=\"38\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"38\" y1=\"113\" x2=\"31\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"38\" y1=\"92\" x2=\"38\" y2=\"113\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"60\" cy=\"47\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"60\" y1=\"60\" x2=\"45.1\" y2=\"58.7\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"45.1\" y1=\"58.7\" x2=\"31.1\" y2=\"58.7\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"38\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"45.1\" cy=\"58.7\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"50\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"6\" width=\"9\" height=\"108\" fill=\"var(--prop2)\"/><line x1=\"9\" y1=\"6\" x2=\"9\" y2=\"114\" stroke=\"var(--prop)\" stroke-width=\"1.5\"/><line x1=\"51.2\" y1=\"100\" x2=\"68\" y2=\"114.1\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"68\" y1=\"114.1\" x2=\"89\" y2=\"114.1\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"89\" y1=\"114.1\" x2=\"96\" y2=\"114.1\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"46.7\" y1=\"68.3\" x2=\"45.87082380853122\" y2=\"62.357570627807064\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"46.7\" y1=\"68.3\" x2=\"51.2\" y2=\"100\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"51.2\" y1=\"100\" x2=\"30.1\" y2=\"93.5\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"30.1\" y1=\"93.5\" x2=\"38\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"38\" y1=\"113\" x2=\"31\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"30.1\" y1=\"93.5\" x2=\"38\" y2=\"113\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"44.9\" cy=\"55.4\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"46.7\" y1=\"68.3\" x2=\"32.6\" y2=\"63.1\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"32.6\" y1=\"63.1\" x2=\"18.6\" y2=\"63.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"30.1\" cy=\"93.5\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"32.6\" cy=\"63.1\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M48.1 81.5 L32.1 81.5\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "cmj": {
+   "nom": "Descente de box + saut vertical",
+   "objectif": "Active le système nerveux avant les charges lourdes.",
+   "consignes": [
+    "Box basse (30–40 cm), descends en marchant",
+    "Rebond court puis saut maximal",
+    "Réception silencieuse, genoux au-dessus des pieds"
+   ],
+   "a_eviter": "Les genoux qui rentrent à la réception.",
+   "video": "https://www.youtube.com/results?search_query=drop%20jump%20technique%20r%C3%A9ception",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"10\" y=\"100\" width=\"46\" height=\"14\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><line x1=\"15\" y1=\"106\" x2=\"51\" y2=\"106\" stroke=\"var(--prop)\" stroke-width=\"1\" opacity=\".5\"/><line x1=\"36.3\" y1=\"57.1\" x2=\"38.6\" y2=\"79\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"38.6\" y1=\"79\" x2=\"38.6\" y2=\"100\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"38.6\" y1=\"100\" x2=\"45.6\" y2=\"100\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"36.3\" y1=\"25.1\" x2=\"36.3\" y2=\"19.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"36.3\" y1=\"25.1\" x2=\"36.3\" y2=\"57.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"36.3\" y1=\"57.1\" x2=\"34\" y2=\"79\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"34\" y1=\"79\" x2=\"34\" y2=\"100\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"34\" y1=\"100\" x2=\"41\" y2=\"100\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"36.3\" y1=\"57.1\" x2=\"34\" y2=\"79\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"34\" y1=\"79\" x2=\"34\" y2=\"100\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"36.3\" cy=\"12.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"36.3\" y1=\"25.1\" x2=\"33.7\" y2=\"39.9\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"33.7\" y1=\"39.9\" x2=\"32.5\" y2=\"53.8\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"34\" cy=\"79\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"33.7\" cy=\"39.9\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"88\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"10\" y=\"100\" width=\"46\" height=\"14\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><line x1=\"15\" y1=\"106\" x2=\"51\" y2=\"106\" stroke=\"var(--prop)\" stroke-width=\"1\" opacity=\".5\"/><line x1=\"89.7\" y1=\"65.2\" x2=\"90.5\" y2=\"87.2\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"90.5\" y1=\"87.2\" x2=\"89\" y2=\"108.1\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"89\" y1=\"108.1\" x2=\"92\" y2=\"114.5\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"90.8\" y1=\"33.2\" x2=\"91.03059873260722\" y2=\"27.204432952212116\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"90.8\" y1=\"33.2\" x2=\"89.7\" y2=\"65.2\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"89.7\" y1=\"65.2\" x2=\"88.6\" y2=\"87.2\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"88.6\" y1=\"87.2\" x2=\"86\" y2=\"108\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"86\" y1=\"108\" x2=\"89\" y2=\"114.3\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"89.7\" y1=\"65.2\" x2=\"88.6\" y2=\"87.2\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"88.6\" y1=\"87.2\" x2=\"86\" y2=\"108\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"91.3\" cy=\"20.2\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"90.8\" y1=\"33.2\" x2=\"104.4\" y2=\"26.9\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"104.4\" y1=\"26.9\" x2=\"115.9\" y2=\"18.8\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"88.6\" cy=\"87.2\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"104.4\" cy=\"26.9\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M108 98 L108 46\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "tbdl": {
+   "nom": "Trap Bar Deadlift",
+   "objectif": "Force des hanches et des jambes, la base de la détente.",
+   "consignes": [
+    "Pieds largeur de hanches, poignées au milieu",
+    "Pousse le sol et monte vite, dos neutre",
+    "Pose contrôlée, reprends ta position à chaque rép"
+   ],
+   "a_eviter": "Le dos qui s'arrondit.",
+   "video": "https://www.youtube.com/results?search_query=trap%20bar%20deadlift%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"62\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"69\" y1=\"62.7\" x2=\"74.20094051841563\" y2=\"59.708308551353845\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"69\" y1=\"62.7\" x2=\"45.2\" y2=\"84.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"45.2\" y1=\"84.1\" x2=\"65.6\" y2=\"92.3\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"65.6\" y1=\"92.3\" x2=\"62\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"113\" x2=\"69\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"69\" y1=\"62.7\" x2=\"45.2\" y2=\"84.1\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"45.2\" y1=\"84.1\" x2=\"65.6\" y2=\"92.3\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"80.3\" cy=\"56.2\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"69\" y1=\"62.7\" x2=\"68.5\" y2=\"77.7\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"68.5\" y1=\"77.7\" x2=\"68\" y2=\"91.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"65.6\" cy=\"92.3\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"68.5\" cy=\"77.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"70\" cy=\"97.6\" r=\"13\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"3\"/><circle cx=\"70\" cy=\"97.6\" r=\"3.5\" fill=\"var(--prop)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"64.3\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"64.3\" y1=\"70.1\" x2=\"66.6\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"66.6\" y1=\"92\" x2=\"66.6\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"66.6\" y1=\"113\" x2=\"73.6\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"64.3\" y1=\"38.1\" x2=\"64.3\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"64.3\" y1=\"38.1\" x2=\"64.3\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"64.3\" y1=\"70.1\" x2=\"62\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"62\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"113\" x2=\"69\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"64.3\" y1=\"38.1\" x2=\"64.3\" y2=\"70.1\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"64.3\" y1=\"70.1\" x2=\"62\" y2=\"92\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"64.3\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"64.3\" y1=\"38.1\" x2=\"63.8\" y2=\"53.1\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"63.8\" y1=\"53.1\" x2=\"63.8\" y2=\"67.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"62\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"63.8\" cy=\"53.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"65.8\" cy=\"73.1\" r=\"13\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"3\"/><circle cx=\"65.8\" cy=\"73.1\" r=\"3.5\" fill=\"var(--prop)\"/><path d=\"M98 92 L98 40\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "skater": {
+   "nom": "Skater Jump",
+   "objectif": "Poussée latérale sur une jambe, comme le déplacement au contre.",
+   "consignes": [
+    "Pousse loin sur le côté, pas en hauteur",
+    "Réception sur une jambe, genou dans l'axe du pied",
+    "Tiens 1 s stable avant de repartir"
+   ],
+   "a_eviter": "Le genou qui rentre à la réception.",
+   "video": "https://www.youtube.com/results?search_query=skater%20jump%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"30.6\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"46.8\" y1=\"71\" x2=\"27.7\" y2=\"82\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"27.7\" y1=\"82\" x2=\"17.2\" y2=\"100.1\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"53.4\" y1=\"39.7\" x2=\"67.5\" y2=\"44.8\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"67.5\" y1=\"44.8\" x2=\"75.6\" y2=\"56.3\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"53.4\" y1=\"39.7\" x2=\"54.63837432525002\" y2=\"33.82918838399991\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"53.4\" y1=\"39.7\" x2=\"46.8\" y2=\"71\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"46.8\" y1=\"71\" x2=\"41.1\" y2=\"92.2\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"41.1\" y1=\"92.2\" x2=\"44\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"46.8\" y1=\"71\" x2=\"41.1\" y2=\"92.2\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"41.1\" y1=\"92.2\" x2=\"44\" y2=\"113\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"56.1\" cy=\"26.9\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"53.4\" y1=\"39.7\" x2=\"40.4\" y2=\"47.2\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"40.4\" y1=\"47.2\" x2=\"32.4\" y2=\"58.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"41.1\" cy=\"92.2\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"40.4\" cy=\"47.2\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"91.4\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"75.2\" y1=\"71\" x2=\"94.3\" y2=\"82\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"94.3\" y1=\"82\" x2=\"104.8\" y2=\"100.1\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"68.6\" y1=\"39.7\" x2=\"54.5\" y2=\"44.8\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"54.5\" y1=\"44.8\" x2=\"46.4\" y2=\"56.3\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"68.6\" y1=\"39.7\" x2=\"67.36162567474997\" y2=\"33.82918838399991\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"68.6\" y1=\"39.7\" x2=\"75.2\" y2=\"71\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"75.2\" y1=\"71\" x2=\"80.9\" y2=\"92.2\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"80.9\" y1=\"92.2\" x2=\"78\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"75.2\" y1=\"71\" x2=\"80.9\" y2=\"92.2\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"80.9\" y1=\"92.2\" x2=\"78\" y2=\"113\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"65.9\" cy=\"26.9\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"68.6\" y1=\"39.7\" x2=\"81.6\" y2=\"47.2\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"81.6\" y1=\"47.2\" x2=\"89.6\" y2=\"58.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"80.9\" cy=\"92.2\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"81.6\" cy=\"47.2\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M16 42 Q40 10 66 32\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "military": {
+   "nom": "Développé militaire haltères",
+   "objectif": "Force au-dessus de la tête, pour des bras fermes au contre.",
+   "consignes": [
+    "Debout, fessiers et abdos serrés",
+    "Haltères à hauteur d'épaules",
+    "Pousse à la verticale, bras près des oreilles"
+   ],
+   "a_eviter": "Cambrer le bas du dos.",
+   "video": "https://www.youtube.com/results?search_query=dumbbell%20shoulder%20press%20standing%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"58.55\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"58.5\" y1=\"70.3\" x2=\"62\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"63.1\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"73\" y2=\"42.2\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"73\" y1=\"42.2\" x2=\"72.5\" y2=\"28.2\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"73\" y2=\"42.2\" stroke=\"var(--hl)\" stroke-width=\"3\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"32.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"70.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"70.3\" x2=\"55.1\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"55.1\" y1=\"92\" x2=\"54\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"58.5\" cy=\"25.3\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"58.5\" y1=\"38.3\" x2=\"44.1\" y2=\"42.2\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"44.1\" y1=\"42.2\" x2=\"44.5\" y2=\"28.2\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"44.1\" y2=\"42.2\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"55.1\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"44.1\" cy=\"42.2\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"35.5\" y=\"26.599999999999998\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"32.5\" y=\"22.2\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"51.5\" y=\"22.2\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"63.5\" y=\"26.599999999999998\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"60.5\" y=\"22.2\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"79.5\" y=\"22.2\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"58.55\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"58.5\" y1=\"70.3\" x2=\"62\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"63.1\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"63.2\" y2=\"24\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"63.2\" y1=\"24\" x2=\"64.4\" y2=\"10.1\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"63.2\" y2=\"24\" stroke=\"var(--hl)\" stroke-width=\"3\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"32.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"58.5\" y2=\"70.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"70.3\" x2=\"55.1\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"55.1\" y1=\"92\" x2=\"54\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"58.5\" cy=\"25.3\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"58.5\" y1=\"38.3\" x2=\"53.9\" y2=\"24\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"53.9\" y1=\"24\" x2=\"52.7\" y2=\"10.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"58.5\" y1=\"38.3\" x2=\"53.9\" y2=\"24\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"55.1\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"53.9\" cy=\"24\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"43.7\" y=\"8.5\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"40.7\" y=\"4.1\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"59.7\" y=\"4.1\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"55.400000000000006\" y=\"8.5\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"52.400000000000006\" y=\"4.1\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"71.4\" y=\"4.1\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M100 46 L100 12\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "facepull": {
+   "nom": "Face Pull à la poulie",
+   "objectif": "Arrière d'épaule : équilibre les poussées et protège l'épaule.",
+   "consignes": [
+    "Poulie au-dessus des yeux, corde",
+    "Tire vers le front, coudes hauts",
+    "Finis pouces vers l'arrière, 1 s de pause"
+   ],
+   "a_eviter": "Se pencher en arrière pour tirer.",
+   "video": "https://www.youtube.com/results?search_query=face%20pull%20technique%20corde%20poulie",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"57.7\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"8\" width=\"9\" height=\"106\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.2\"/><circle cx=\"8\" cy=\"37.6\" r=\"3\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"37.6\" x2=\"28.7\" y2=\"37.6\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><line x1=\"57.7\" y1=\"70.1\" x2=\"55.4\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"55.4\" y1=\"92\" x2=\"55.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"55.4\" y1=\"113\" x2=\"48.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"38.1\" x2=\"57.7\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"38.1\" x2=\"57.7\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"70.1\" x2=\"60\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"92\" x2=\"60\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"113\" x2=\"53\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"57.7\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"57.7\" y1=\"38.1\" x2=\"42.7\" y2=\"37.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"42.7\" y1=\"37.6\" x2=\"28.7\" y2=\"37.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"38.1\" x2=\"42.7\" y2=\"37.6\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"60\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"42.7\" cy=\"37.6\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"57.7\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"8\" width=\"9\" height=\"106\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.2\"/><circle cx=\"8\" cy=\"32.7\" r=\"3\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"32.7\" x2=\"56.8\" y2=\"24.7\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><line x1=\"57.7\" y1=\"70.1\" x2=\"55.4\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"55.4\" y1=\"92\" x2=\"55.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"55.4\" y1=\"113\" x2=\"48.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"38.1\" x2=\"57.7\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"38.1\" x2=\"57.7\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"70.1\" x2=\"60\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"92\" x2=\"60\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"60\" y1=\"113\" x2=\"53\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"57.7\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"57.7\" y1=\"38.1\" x2=\"70\" y2=\"29.5\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"70\" y1=\"29.5\" x2=\"56.8\" y2=\"24.7\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57.7\" y1=\"38.1\" x2=\"70\" y2=\"29.5\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"60\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"70\" cy=\"29.5\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M26.799999999999997 48.7 L50.8 48.7\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "squat": {
+   "nom": "Back Squat",
+   "objectif": "Force maximale des jambes, juste avant le saut.",
+   "consignes": [
+    "Barre sur les trapèzes",
+    "Descends au moins cuisses parallèles",
+    "Remonte vite en poussant tout le pied"
+   ],
+   "a_eviter": "Les talons qui décollent.",
+   "video": "https://www.youtube.com/results?search_query=back%20squat%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"60.3\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"60.3\" y1=\"70.1\" x2=\"62.6\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62.6\" y1=\"92\" x2=\"62.6\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62.6\" y1=\"113\" x2=\"69.6\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"38.1\" x2=\"60.3\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"38.1\" x2=\"60.3\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"70.1\" x2=\"58\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"58\" y1=\"92\" x2=\"58\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"58\" y1=\"113\" x2=\"65\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"70.1\" x2=\"58\" y2=\"92\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"60.3\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"60.3\" y1=\"38.1\" x2=\"51.7\" y2=\"50.4\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"51.7\" y1=\"50.4\" x2=\"60.7\" y2=\"39.7\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"58\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"51.7\" cy=\"50.4\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"53.3\" cy=\"43.1\" r=\"9\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"3\"/><circle cx=\"53.3\" cy=\"43.1\" r=\"3.5\" fill=\"var(--prop)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"62\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"66\" y1=\"63.8\" x2=\"69.85915251853964\" y2=\"59.20577081126233\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"66\" y1=\"63.8\" x2=\"49.1\" y2=\"90.9\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"49.1\" y1=\"90.9\" x2=\"70.9\" y2=\"94\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"70.9\" y1=\"94\" x2=\"62\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"113\" x2=\"69\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"49.1\" y1=\"90.9\" x2=\"70.9\" y2=\"94\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"74.4\" cy=\"53.8\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"66\" y1=\"63.8\" x2=\"57.4\" y2=\"76.1\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"57.4\" y1=\"76.1\" x2=\"66.4\" y2=\"65.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"70.9\" cy=\"94\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"57.4\" cy=\"76.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"60\" cy=\"69.8\" r=\"9\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"69.8\" r=\"3.5\" fill=\"var(--prop)\"/><path d=\"M102 30 L102 76\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "boxjump": {
+   "nom": "Box Jump",
+   "objectif": "Hauteur de saut et réception amortie.",
+   "consignes": [
+    "Bras en arrière, puis lancés vers le haut",
+    "Réception douce au centre de la box",
+    "Redescends en marchant"
+   ],
+   "a_eviter": "Une box trop haute.",
+   "video": "https://www.youtube.com/results?search_query=box%20jump%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"34\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"70\" y=\"90\" width=\"44\" height=\"24\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><line x1=\"75\" y1=\"96\" x2=\"109\" y2=\"96\" stroke=\"var(--prop)\" stroke-width=\"1\" opacity=\".5\"/><line x1=\"42.6\" y1=\"64.9\" x2=\"47.5197485020193\" y2=\"61.46545859292993\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"42.6\" y1=\"64.9\" x2=\"19.9\" y2=\"87.6\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"19.9\" y1=\"87.6\" x2=\"41.2\" y2=\"93.3\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"41.2\" y1=\"93.3\" x2=\"34\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"34\" y1=\"113\" x2=\"41\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"19.9\" y1=\"87.6\" x2=\"41.2\" y2=\"93.3\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"41.2\" y1=\"93.3\" x2=\"34\" y2=\"113\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"53.2\" cy=\"57.5\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"42.6\" y1=\"64.9\" x2=\"29.6\" y2=\"72.4\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"29.6\" y1=\"72.4\" x2=\"16\" y2=\"76.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"41.2\" cy=\"93.3\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"29.6\" cy=\"72.4\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"70\" y=\"90\" width=\"44\" height=\"24\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><line x1=\"75\" y1=\"96\" x2=\"109\" y2=\"96\" stroke=\"var(--prop)\" stroke-width=\"1\" opacity=\".5\"/><line x1=\"90.5\" y1=\"27.7\" x2=\"93.51169525466888\" y2=\"22.510617407339776\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"90.5\" y1=\"27.7\" x2=\"78.5\" y2=\"57.4\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"78.5\" y1=\"57.4\" x2=\"96.5\" y2=\"70\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"96.5\" y1=\"70\" x2=\"90\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"90\" y1=\"90\" x2=\"97\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"78.5\" y1=\"57.4\" x2=\"96.5\" y2=\"70\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"96.5\" y1=\"70\" x2=\"90\" y2=\"90\" stroke=\"var(--hl)\" stroke-width=\"4\" stroke-linecap=\"round\" /><circle cx=\"97\" cy=\"16.5\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"90.5\" y1=\"27.7\" x2=\"104.9\" y2=\"31.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"104.9\" y1=\"31.6\" x2=\"118.9\" y2=\"30.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"96.5\" cy=\"70\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"104.9\" cy=\"31.6\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M22 98 Q34 22 68 34\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "bench": {
+   "nom": "Développé couché haltères",
+   "objectif": "Force de poussée et stabilité de chaque épaule.",
+   "consignes": [
+    "Omoplates serrées contre le banc",
+    "Coudes à 45° du corps",
+    "Pousse fort, descends lentement"
+   ],
+   "a_eviter": "Les coudes à l'horizontale.",
+   "video": "https://www.youtube.com/results?search_query=dumbbell%20bench%20press%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"12\" y=\"86\" width=\"74\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"17\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><rect x=\"77\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><line x1=\"40\" y1=\"80\" x2=\"34.01432721706326\" y2=\"79.58560726887362\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"80\" x2=\"72\" y2=\"80\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"72\" y1=\"80\" x2=\"90.7\" y2=\"91.7\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"90.7\" y1=\"91.7\" x2=\"90.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"90.7\" y1=\"112.7\" x2=\"97.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"80\" x2=\"72\" y2=\"80\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"27\" cy=\"79.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"40\" y1=\"80\" x2=\"34.4\" y2=\"93.9\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"34.4\" y1=\"93.9\" x2=\"38\" y2=\"80.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"80\" x2=\"34.4\" y2=\"93.9\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"90.7\" cy=\"91.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"34.4\" cy=\"93.9\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"29\" y=\"78.80000000000001\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"26\" y=\"74.4\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"45\" y=\"74.4\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"12\" y=\"86\" width=\"74\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"17\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><rect x=\"77\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><line x1=\"40\" y1=\"80\" x2=\"34.01432721706326\" y2=\"79.58560726887362\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"80\" x2=\"72\" y2=\"80\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"72\" y1=\"80\" x2=\"90.7\" y2=\"91.7\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"90.7\" y1=\"91.7\" x2=\"90.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"90.7\" y1=\"112.7\" x2=\"97.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"80\" x2=\"72\" y2=\"80\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"27\" cy=\"79.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"40\" y1=\"80\" x2=\"40\" y2=\"65\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"65\" x2=\"40\" y2=\"51\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40\" y1=\"80\" x2=\"40\" y2=\"65\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"90.7\" cy=\"91.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"40\" cy=\"65\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"31\" y=\"49.4\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"28\" y=\"45\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"47\" y=\"45\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M58 76 L58 44\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "pullover": {
+   "nom": "Pull-over haltère",
+   "objectif": "Grand dorsal et ouverture d'épaule, le geste de l'armé.",
+   "consignes": [
+    "Haltère à deux mains, bras presque tendus",
+    "Descends derrière la tête sans douleur",
+    "Ramène au-dessus de la poitrine, abdos serrés"
+   ],
+   "a_eviter": "Trop lourd : le dos se creuse.",
+   "video": "https://www.youtube.com/results?search_query=dumbbell%20pullover%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"32\" y=\"86\" width=\"76\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"37\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><rect x=\"99\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><line x1=\"56\" y1=\"80\" x2=\"50.01432721706326\" y2=\"79.58560726887362\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"80\" x2=\"88\" y2=\"80\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"88\" y1=\"80\" x2=\"106.7\" y2=\"91.7\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"106.7\" y1=\"91.7\" x2=\"106.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"106.7\" y1=\"112.7\" x2=\"113.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"80\" x2=\"88\" y2=\"80\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"43\" cy=\"79.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"56\" y1=\"80\" x2=\"41.3\" y2=\"83.1\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"41.3\" y1=\"83.1\" x2=\"27.5\" y2=\"85.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"80\" x2=\"41.3\" y2=\"83.1\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"106.7\" cy=\"91.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"41.3\" cy=\"83.1\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"22.9\" y=\"76.1\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"18.5\" y=\"73.1\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"18.5\" y=\"92.1\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"32\" y=\"86\" width=\"76\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"37\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><rect x=\"99\" y=\"93\" width=\"4\" height=\"21\" fill=\"var(--prop)\"/><line x1=\"56\" y1=\"80\" x2=\"50.01432721706326\" y2=\"79.58560726887362\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"80\" x2=\"88\" y2=\"80\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"88\" y1=\"80\" x2=\"106.7\" y2=\"91.7\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"106.7\" y1=\"91.7\" x2=\"106.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"106.7\" y1=\"112.7\" x2=\"113.7\" y2=\"112.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"80\" x2=\"88\" y2=\"80\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"43\" cy=\"79.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"56\" y1=\"80\" x2=\"56\" y2=\"65\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"65\" x2=\"56\" y2=\"51\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"56\" y1=\"80\" x2=\"56\" y2=\"65\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"106.7\" cy=\"91.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"56\" cy=\"65\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"54.4\" y=\"38\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"50\" y=\"35\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"50\" y=\"54\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M14 78 Q18 46 44 40\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "landmine": {
+   "nom": "Landmine Press",
+   "objectif": "Poussée vers le haut et l'avant, proche de la passe haute.",
+   "consignes": [
+    "Gainage fort, bassin fixe",
+    "Pousse vers le haut et l'avant",
+    "Contrôle la descente"
+   ],
+   "a_eviter": "Tourner le buste.",
+   "video": "https://www.youtube.com/results?search_query=landmine%20press%20one%20arm%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"54.5\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><circle cx=\"8\" cy=\"110\" r=\"4\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"110\" x2=\"58\" y2=\"60.4\" stroke=\"var(--prop)\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"60.4\" r=\"5.5\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"2\"/><line x1=\"54\" y1=\"90\" x2=\"54\" y2=\"112\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"112\" x2=\"33\" y2=\"112\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"33\" y1=\"112\" x2=\"26\" y2=\"112\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"58\" x2=\"54\" y2=\"52\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"58\" x2=\"54\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"90\" x2=\"76\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"76\" y1=\"90\" x2=\"76\" y2=\"111\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"76\" y1=\"111\" x2=\"83\" y2=\"111\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"54\" cy=\"45\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"54\" y1=\"58\" x2=\"51.4\" y2=\"72.8\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"51.4\" y1=\"72.8\" x2=\"58\" y2=\"60.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"58\" x2=\"51.4\" y2=\"72.8\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"76\" cy=\"90\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"51.4\" cy=\"72.8\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"54.5\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><circle cx=\"8\" cy=\"110\" r=\"4\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"110\" x2=\"72.6\" y2=\"35.8\" stroke=\"var(--prop)\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"72.6\" cy=\"35.8\" r=\"5.5\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"2\"/><line x1=\"54\" y1=\"90\" x2=\"54\" y2=\"112\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"112\" x2=\"33\" y2=\"112\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"33\" y1=\"112\" x2=\"26\" y2=\"112\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"58\" x2=\"54\" y2=\"52\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"58\" x2=\"54\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"90\" x2=\"76\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"76\" y1=\"90\" x2=\"76\" y2=\"111\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"76\" y1=\"111\" x2=\"83\" y2=\"111\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"54\" cy=\"45\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"54\" y1=\"58\" x2=\"63.2\" y2=\"46.2\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"63.2\" y1=\"46.2\" x2=\"72.6\" y2=\"35.8\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"54\" y1=\"58\" x2=\"63.2\" y2=\"46.2\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"76\" cy=\"90\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"63.2\" cy=\"46.2\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M78.6 65.8 L86.6 43.8\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "chestpass": {
+   "nom": "Medecine-ball rapide au mur",
+   "objectif": "Vitesse des bras et des mains, comme la touche en passe.",
+   "consignes": [
+    "À 1 m du mur, ballon de 2–3 kg",
+    "Lance et rattrape le plus vite possible",
+    "Doigts et poignets actifs"
+   ],
+   "a_eviter": "Ralentir en fin de série.",
+   "video": "https://www.youtube.com/results?search_query=medicine%20ball%20chest%20pass%20wall%20rapid",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"59.7\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"6\" width=\"9\" height=\"108\" fill=\"var(--prop2)\"/><line x1=\"9\" y1=\"6\" x2=\"9\" y2=\"114\" stroke=\"var(--prop)\" stroke-width=\"1.5\"/><line x1=\"59.7\" y1=\"70.1\" x2=\"57.4\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"57.4\" y1=\"92\" x2=\"57.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"57.4\" y1=\"113\" x2=\"50.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"38.1\" x2=\"59.7\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"38.1\" x2=\"59.7\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"70.1\" x2=\"62\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"62\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"113\" x2=\"55\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"59.7\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"59.7\" y1=\"38.1\" x2=\"53.4\" y2=\"51.7\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"53.4\" y1=\"51.7\" x2=\"42.6\" y2=\"42.7\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"38.1\" x2=\"53.4\" y2=\"51.7\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><line x1=\"53.4\" y1=\"51.7\" x2=\"42.6\" y2=\"42.7\" stroke=\"var(--hl)\" stroke-width=\"2.5\" stroke-linecap=\"round\" /><circle cx=\"62\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"53.4\" cy=\"51.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"36.6\" cy=\"40.7\" r=\"7.5\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.4\"/><path d=\"M29.1 40.7 Q36.6 36.7 44.1 40.7\" fill=\"none\" stroke=\"var(--yellow-ink)\" stroke-width=\"1\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"59.7\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"6\" width=\"9\" height=\"108\" fill=\"var(--prop2)\"/><line x1=\"9\" y1=\"6\" x2=\"9\" y2=\"114\" stroke=\"var(--prop)\" stroke-width=\"1.5\"/><line x1=\"59.7\" y1=\"70.1\" x2=\"57.4\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"57.4\" y1=\"92\" x2=\"57.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"57.4\" y1=\"113\" x2=\"50.4\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"38.1\" x2=\"59.7\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"38.1\" x2=\"59.7\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"70.1\" x2=\"62\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"92\" x2=\"62\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"113\" x2=\"55\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"59.7\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"59.7\" y1=\"38.1\" x2=\"44.7\" y2=\"38.1\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"44.7\" y1=\"38.1\" x2=\"30.7\" y2=\"38.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59.7\" y1=\"38.1\" x2=\"44.7\" y2=\"38.1\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><line x1=\"44.7\" y1=\"38.1\" x2=\"30.7\" y2=\"38.1\" stroke=\"var(--hl)\" stroke-width=\"2.5\" stroke-linecap=\"round\" /><circle cx=\"62\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"44.7\" cy=\"38.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"17\" cy=\"38.1\" r=\"7.5\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.4\"/><path d=\"M9.5 38.1 Q17 34.1 24.5 38.1\" fill=\"none\" stroke=\"var(--yellow-ink)\" stroke-width=\"1\"/><path d=\"M34.7 26.1 L22 26.1\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "incline": {
+   "nom": "Développé incliné haltères",
+   "objectif": "Haut de la poitrine et avant de l'épaule, angle proche de la passe.",
+   "consignes": [
+    "Banc à 30–45°",
+    "Omoplates serrées, coudes à 45°",
+    "Pousse en rapprochant les haltères"
+   ],
+   "a_eviter": "Un banc trop redressé.",
+   "video": "https://www.youtube.com/results?search_query=incline%20dumbbell%20press%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><line x1=\"74.53707849216194\" y1=\"102.72241567713871\" x2=\"49.03462870301764\" y2=\"62.068510425032215\" stroke=\"var(--prop)\" stroke-width=\"7\" stroke-linecap=\"round\" /><rect x=\"62\" y=\"96\" width=\"30\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"74\" y=\"103\" width=\"4\" height=\"11\" fill=\"var(--prop)\"/><line x1=\"59\" y1=\"62.9\" x2=\"56.46521049662493\" y2=\"57.461724338213486\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59\" y1=\"62.9\" x2=\"76\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"76\" y1=\"90\" x2=\"97.9\" y2=\"87.7\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"97.9\" y1=\"87.7\" x2=\"97.9\" y2=\"108.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"97.9\" y1=\"108.7\" x2=\"104.9\" y2=\"108.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"59\" y1=\"62.9\" x2=\"76\" y2=\"90\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"53.5\" cy=\"51.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"59\" y1=\"62.9\" x2=\"56.4\" y2=\"77.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"56.4\" y1=\"77.6\" x2=\"61.2\" y2=\"64.5\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59\" y1=\"62.9\" x2=\"56.4\" y2=\"77.6\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"97.9\" cy=\"87.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"56.4\" cy=\"77.6\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"52.2\" y=\"62.9\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"49.2\" y=\"58.5\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"68.2\" y=\"58.5\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><line x1=\"74.53707849216194\" y1=\"102.72241567713871\" x2=\"49.03462870301764\" y2=\"62.068510425032215\" stroke=\"var(--prop)\" stroke-width=\"7\" stroke-linecap=\"round\" /><rect x=\"62\" y=\"96\" width=\"30\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"74\" y=\"103\" width=\"4\" height=\"11\" fill=\"var(--prop)\"/><line x1=\"59\" y1=\"62.9\" x2=\"56.46521049662493\" y2=\"57.461724338213486\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59\" y1=\"62.9\" x2=\"76\" y2=\"90\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"76\" y1=\"90\" x2=\"97.9\" y2=\"87.7\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"97.9\" y1=\"87.7\" x2=\"97.9\" y2=\"108.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"97.9\" y1=\"108.7\" x2=\"104.9\" y2=\"108.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"59\" y1=\"62.9\" x2=\"76\" y2=\"90\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"53.5\" cy=\"51.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"59\" y1=\"62.9\" x2=\"66.5\" y2=\"49.9\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"66.5\" y1=\"49.9\" x2=\"74\" y2=\"38\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"59\" y1=\"62.9\" x2=\"66.5\" y2=\"49.9\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"97.9\" cy=\"87.7\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"66.5\" cy=\"49.9\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"65\" y=\"36.4\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"62\" y=\"32\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"81\" y=\"32\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M94 72 L94 42\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "wrist": {
+   "nom": "Extension de poignet haltère",
+   "objectif": "Poignets et avant-bras solides pour des mains fermes.",
+   "consignes": [
+    "Avant-bras posé, paume vers le bas",
+    "Seul le poignet bouge",
+    "Monte, tiens 1 s, descends lentement"
+   ],
+   "a_eviter": "Soulever l'avant-bras.",
+   "video": "https://www.youtube.com/results?search_query=wrist%20extension%20dumbbell%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"22\" y=\"96\" width=\"40\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"27\" y=\"103\" width=\"4\" height=\"11\" fill=\"var(--prop)\"/><rect x=\"53\" y=\"103\" width=\"4\" height=\"11\" fill=\"var(--prop)\"/><line x1=\"57\" y1=\"63.7\" x2=\"60.4655394705352\" y2=\"58.80203754831026\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57\" y1=\"63.7\" x2=\"42\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"42\" y1=\"92\" x2=\"63.8\" y2=\"88.9\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"63.8\" y1=\"88.9\" x2=\"61.6\" y2=\"109.8\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"61.6\" y1=\"109.8\" x2=\"68.6\" y2=\"109.8\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"64.5\" cy=\"53.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"57\" y1=\"63.7\" x2=\"54.9\" y2=\"78.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"54.9\" y1=\"78.6\" x2=\"68.9\" y2=\"79.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"54.9\" y1=\"78.6\" x2=\"68.9\" y2=\"79.6\" stroke=\"var(--hl)\" stroke-width=\"2.5\" stroke-linecap=\"round\" /><circle cx=\"63.8\" cy=\"88.9\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"54.9\" cy=\"78.6\" r=\"1.8\" fill=\"var(--panel)\"/><line x1=\"68.9\" y1=\"79.6\" x2=\"72.91503505445733\" y2=\"85.33406431002294\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"68.9\" y1=\"79.6\" x2=\"72.91503505445733\" y2=\"85.33406431002294\" stroke=\"var(--hl)\" stroke-width=\"1.5\" stroke-linecap=\"round\" /><g><rect x=\"73.31503505445734\" y=\"80.33406431002294\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"68.91503505445733\" y=\"77.33406431002294\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"68.91503505445733\" y=\"96.33406431002294\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"22\" y=\"96\" width=\"40\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"27\" y=\"103\" width=\"4\" height=\"11\" fill=\"var(--prop)\"/><rect x=\"53\" y=\"103\" width=\"4\" height=\"11\" fill=\"var(--prop)\"/><line x1=\"57\" y1=\"63.7\" x2=\"60.4655394705352\" y2=\"58.80203754831026\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57\" y1=\"63.7\" x2=\"42\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"42\" y1=\"92\" x2=\"63.8\" y2=\"88.9\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"63.8\" y1=\"88.9\" x2=\"61.6\" y2=\"109.8\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"61.6\" y1=\"109.8\" x2=\"68.6\" y2=\"109.8\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><circle cx=\"64.5\" cy=\"53.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"57\" y1=\"63.7\" x2=\"54.9\" y2=\"78.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"54.9\" y1=\"78.6\" x2=\"68.9\" y2=\"79.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"54.9\" y1=\"78.6\" x2=\"68.9\" y2=\"79.6\" stroke=\"var(--hl)\" stroke-width=\"2.5\" stroke-linecap=\"round\" /><circle cx=\"63.8\" cy=\"88.9\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"54.9\" cy=\"78.6\" r=\"1.8\" fill=\"var(--panel)\"/><line x1=\"68.9\" y1=\"79.6\" x2=\"72.91503505445733\" y2=\"73.86593568997705\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"68.9\" y1=\"79.6\" x2=\"72.91503505445733\" y2=\"73.86593568997705\" stroke=\"var(--hl)\" stroke-width=\"1.5\" stroke-linecap=\"round\" /><g><rect x=\"73.31503505445734\" y=\"60.86593568997705\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"68.91503505445733\" y=\"57.86593568997705\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"68.91503505445733\" y=\"76.86593568997705\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M86.9 91.6 Q92.9 79.6 86.9 67.6\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "goblet": {
+   "nom": "Goblet Squat + maintien",
+   "objectif": "Force et endurance en position basse de défense.",
+   "consignes": [
+    "Haltère contre la poitrine",
+    "Descends entre les genoux, buste droit",
+    "Dernière rép : tiens 20 s en bas"
+   ],
+   "a_eviter": "Le buste qui tombe en avant.",
+   "video": "https://www.youtube.com/results?search_query=goblet%20squat%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"60.3\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"60.3\" y1=\"70.1\" x2=\"62.6\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62.6\" y1=\"92\" x2=\"62.6\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62.6\" y1=\"113\" x2=\"69.6\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"70.1\" x2=\"62.6\" y2=\"92\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"38.1\" x2=\"60.3\" y2=\"32.1\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"38.1\" x2=\"60.3\" y2=\"70.1\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"70.1\" x2=\"58\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"58\" y1=\"92\" x2=\"58\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"58\" y1=\"113\" x2=\"65\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"70.1\" x2=\"58\" y2=\"92\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"60.3\" cy=\"25.1\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"60.3\" y1=\"38.1\" x2=\"63.4\" y2=\"52.8\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"63.4\" y1=\"52.8\" x2=\"70\" y2=\"40.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"58\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"63.4\" cy=\"52.8\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"71.4\" y=\"31.4\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"67\" y=\"28.4\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"67\" y=\"47.4\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"62.5\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><line x1=\"49.3\" y1=\"91.8\" x2=\"70.8\" y2=\"96.4\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"70.8\" y1=\"96.4\" x2=\"63\" y2=\"115.9\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"63\" y1=\"115.9\" x2=\"70\" y2=\"115.9\" stroke=\"var(--fig2)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"49.3\" y1=\"91.8\" x2=\"70.8\" y2=\"96.4\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"61.8\" x2=\"63.111560831036925\" y2=\"56.499516466077935\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"60.3\" y1=\"61.8\" x2=\"49.3\" y2=\"91.8\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"49.3\" y1=\"91.8\" x2=\"71.2\" y2=\"94.1\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"71.2\" y1=\"94.1\" x2=\"62\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62\" y1=\"113\" x2=\"69\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"49.3\" y1=\"91.8\" x2=\"71.2\" y2=\"94.1\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"66.4\" cy=\"50.3\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"60.3\" y1=\"61.8\" x2=\"64.9\" y2=\"76\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"64.9\" y1=\"76\" x2=\"72.9\" y2=\"64.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"71.2\" cy=\"94.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"64.9\" cy=\"76\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"74.30000000000001\" y=\"55.599999999999994\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"69.9\" y=\"52.599999999999994\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"69.9\" y=\"71.6\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><text x=\"102\" y=\"24\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"10\" font-weight=\"700\" fill=\"var(--blue)\">20 s</text><path d=\"M102 32 L102 76\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "sprint": {
+   "nom": "Sprint court + changement de direction",
+   "objectif": "Premiers appuis et freinage en restant basse.",
+   "consignes": [
+    "Départ en posture de défense",
+    "Sprint 3–5 m, appui bas, repars en sens inverse",
+    "Variante : départ latéral ou au signal"
+   ],
+   "a_eviter": "Se redresser pour freiner.",
+   "video": "https://www.youtube.com/results?search_query=5-0-5%20agility%20drill%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <rect x=\"6\" y=\"18\" width=\"236\" height=\"92\" rx=\"10\" fill=\"var(--panel)\" stroke=\"var(--line)\"/> <path d=\"M32 72 L40 54 L48 72 Z\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.2\"/><path d=\"M142 72 L150 54 L158 72 Z\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.2\"/><path d=\"M142 108 L150 90 L158 108 Z\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.2\"/> <circle cx=\"40\" cy=\"44\" r=\"7\" fill=\"var(--fig)\"/><path d=\"M40 51 L40 56\" stroke=\"var(--fig)\" stroke-width=\"4\" stroke-linecap=\"round\"/> <path d=\"M52 56 L136 56\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/> <path d=\"M140 72 Q96 92 54 76\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/> <path d=\"M160 64 Q200 70 160 98\" fill=\"none\" stroke=\"var(--fig2)\" stroke-width=\"2.2\" stroke-dasharray=\"4 4\"/> <text x=\"94\" y=\"48\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"10\" font-weight=\"700\" fill=\"var(--blue)\">3–5 m</text><text x=\"96\" y=\"104\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"10\" font-weight=\"700\" fill=\"var(--blue)\">retour</text> <text x=\"200\" y=\"40\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"9\" fill=\"var(--muted)\">variante</text> <text x=\"200\" y=\"52\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"9\" fill=\"var(--muted)\">en diagonale</text> <text x=\"14\" y=\"14\" font-family=\"JetBrains Mono,monospace\" font-size=\"10\" fill=\"var(--muted)\">vue de dessus</text> </svg>"
+  },
+  "renegade": {
+   "nom": "Tirage planche (renegade row)",
+   "objectif": "Gainage anti-rotation et dos, pour plonger et se relever.",
+   "consignes": [
+    "Planche sur haltères, pieds écartés",
+    "Tire un haltère vers la hanche",
+    "Bassin immobile, alterne les bras"
+   ],
+   "a_eviter": "Le bassin qui tourne.",
+   "video": "https://www.youtube.com/results?search_query=renegade%20row%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><line x1=\"40.5\" y1=\"83.9\" x2=\"39.9\" y2=\"98.9\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"39.9\" y1=\"98.9\" x2=\"39.9\" y2=\"112.9\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"34.789748293436695\" y2=\"82.05798332046345\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"70.1\" y2=\"95.9\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"70.1\" y1=\"95.9\" x2=\"90.5\" y2=\"104.1\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"90.5\" y1=\"104.1\" x2=\"110\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"110\" y1=\"112\" x2=\"110\" y2=\"119\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"70.1\" y2=\"95.9\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"28.1\" cy=\"79.9\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"40.5\" y1=\"83.9\" x2=\"40.5\" y2=\"98.9\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"98.9\" x2=\"40.5\" y2=\"112.9\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"40.5\" y2=\"98.9\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"90.5\" cy=\"104.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"40.5\" cy=\"98.9\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"31.5\" y=\"109.30000000000001\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"28.5\" y=\"104.9\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"47.5\" y=\"104.9\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><line x1=\"40.5\" y1=\"83.9\" x2=\"39.9\" y2=\"98.9\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"39.9\" y1=\"98.9\" x2=\"39.9\" y2=\"112.9\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"34.789748293436695\" y2=\"82.05798332046345\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"70.1\" y2=\"95.9\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"70.1\" y1=\"95.9\" x2=\"90.5\" y2=\"104.1\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"90.5\" y1=\"104.1\" x2=\"110\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"110\" y1=\"112\" x2=\"110\" y2=\"119\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"70.1\" y2=\"95.9\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"28.1\" cy=\"79.9\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"40.5\" y1=\"83.9\" x2=\"54.1\" y2=\"77.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"54.1\" y1=\"77.6\" x2=\"46\" y2=\"89\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"40.5\" y1=\"83.9\" x2=\"54.1\" y2=\"77.6\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"90.5\" cy=\"104.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"54.1\" cy=\"77.6\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"37\" y=\"87.4\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"34\" y=\"83\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"53\" y=\"83\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"30.9\" y=\"109.30000000000001\" width=\"18\" height=\"3.2\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"27.9\" y=\"104.9\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"46.9\" y=\"104.9\" width=\"5\" height=\"12\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M62 111 L62 85\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "pushup": {
+   "nom": "Pompes sur les genoux",
+   "objectif": "Force de poussée pour se relever vite après un plongeon.",
+   "consignes": [
+    "Mains sous les épaules",
+    "Corps aligné des genoux à la tête",
+    "Poitrine près du sol, coudes à 45°"
+   ],
+   "a_eviter": "Les fesses en l'air.",
+   "video": "https://www.youtube.com/results?search_query=knee%20push%20up%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><line x1=\"45.2\" y1=\"85\" x2=\"39.770036463417505\" y2=\"82.44745303835866\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"45.2\" y1=\"85\" x2=\"72.9\" y2=\"101\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"72.9\" y1=\"101\" x2=\"92\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"92\" y1=\"112\" x2=\"110.5\" y2=\"102.1\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"45.2\" y1=\"85\" x2=\"72.9\" y2=\"101\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"33.5\" cy=\"79.5\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"45.2\" y1=\"85\" x2=\"45.2\" y2=\"100\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"45.2\" y1=\"100\" x2=\"45.2\" y2=\"114\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"45.2\" y1=\"85\" x2=\"45.2\" y2=\"100\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"92\" cy=\"112\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"45.2\" cy=\"100\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><line x1=\"39.8\" y1=\"98\" x2=\"33.88670665544148\" y2=\"96.983652706404\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"39.8\" y1=\"98\" x2=\"70.7\" y2=\"106.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"70.7\" y1=\"106.3\" x2=\"92\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"92\" y1=\"112\" x2=\"110.5\" y2=\"102.1\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"39.8\" y1=\"98\" x2=\"70.7\" y2=\"106.3\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"27\" cy=\"95.8\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"39.8\" y1=\"98\" x2=\"54.5\" y2=\"101.1\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"54.5\" y1=\"101.1\" x2=\"49.7\" y2=\"114.3\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"39.8\" y1=\"98\" x2=\"54.5\" y2=\"101.1\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"92\" cy=\"112\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"54.5\" cy=\"101.1\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M12 58 L12 92\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "mbthrow": {
+   "nom": "Lancer rotatif medecine-ball",
+   "objectif": "Vitesse de rotation hanches-tronc, le moteur de la frappe.",
+   "consignes": [
+    "De profil au mur, à 1 m",
+    "Charge la hanche arrière",
+    "Les hanches tournent avant les bras, lance fort"
+   ],
+   "a_eviter": "Lancer seulement avec les bras.",
+   "video": "https://www.youtube.com/results?search_query=medicine%20ball%20rotational%20throw%20wall",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"60.55\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"6\" width=\"9\" height=\"108\" fill=\"var(--prop2)\"/><line x1=\"9\" y1=\"6\" x2=\"9\" y2=\"114\" stroke=\"var(--prop)\" stroke-width=\"1.5\"/><line x1=\"60.5\" y1=\"70.3\" x2=\"64\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"64\" y1=\"92\" x2=\"65.1\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62.8\" y1=\"38.4\" x2=\"71.4\" y2=\"50.7\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"71.4\" y1=\"50.7\" x2=\"84.9\" y2=\"54.3\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"62.8\" y1=\"38.4\" x2=\"63.21439273112639\" y2=\"32.41432721706326\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"62.8\" y1=\"38.4\" x2=\"60.5\" y2=\"70.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"60.5\" y1=\"70.3\" x2=\"57.1\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"57.1\" y1=\"92\" x2=\"56\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"62.8\" y1=\"38.4\" x2=\"60.5\" y2=\"70.3\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"63.7\" cy=\"25.4\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"62.8\" y1=\"38.4\" x2=\"75.1\" y2=\"47\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"75.1\" y1=\"47\" x2=\"88.8\" y2=\"49.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"57.1\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"75.1\" cy=\"47\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"94.8\" cy=\"49.4\" r=\"7.5\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.4\"/><path d=\"M87.3 49.4 Q94.8 45.4 102.3 49.4\" fill=\"none\" stroke=\"var(--yellow-ink)\" stroke-width=\"1\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"60.55\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"0\" y=\"6\" width=\"9\" height=\"108\" fill=\"var(--prop2)\"/><line x1=\"9\" y1=\"6\" x2=\"9\" y2=\"114\" stroke=\"var(--prop)\" stroke-width=\"1.5\"/><line x1=\"60.5\" y1=\"70.3\" x2=\"64\" y2=\"92\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"64\" y1=\"92\" x2=\"65.1\" y2=\"113\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"57.2\" y1=\"38.5\" x2=\"42.3\" y2=\"39.8\" stroke=\"var(--fig2)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"42.3\" y1=\"39.8\" x2=\"28.3\" y2=\"39.8\" stroke=\"var(--fig2)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57.2\" y1=\"38.5\" x2=\"56.55756080168029\" y2=\"32.53449315845985\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"57.2\" y1=\"38.5\" x2=\"60.5\" y2=\"70.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"60.5\" y1=\"70.3\" x2=\"57.1\" y2=\"92\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"57.1\" y1=\"92\" x2=\"56\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"57.2\" y1=\"38.5\" x2=\"60.5\" y2=\"70.3\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"55.8\" cy=\"25.5\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"57.2\" y1=\"38.5\" x2=\"42.3\" y2=\"37.2\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"42.3\" y1=\"37.2\" x2=\"28.3\" y2=\"37.2\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"57.1\" cy=\"92\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"42.3\" cy=\"37.2\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"17\" cy=\"35.2\" r=\"7.5\" fill=\"var(--yellow)\" stroke=\"var(--yellow-ink)\" stroke-width=\"1.4\"/><path d=\"M9.5 35.2 Q17 31.200000000000003 24.5 35.2\" fill=\"none\" stroke=\"var(--yellow-ink)\" stroke-width=\"1\"/><path d=\"M92 76 Q62 18 26 30\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "nordic": {
+   "nom": "Nordic Hamstring Curl",
+   "objectif": "La meilleure prévention connue des blessures des ischios.",
+   "consignes": [
+    "Chevilles bloquées par une partenaire",
+    "Genou, hanche et épaule alignés",
+    "Freine le plus longtemps possible"
+   ],
+   "a_eviter": "Plier les hanches pour tricher.",
+   "video": "https://www.youtube.com/results?search_query=nordic%20hamstring%20curl%20technique%20progression",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"23\" y=\"102\" width=\"12\" height=\"12\" rx=\"3\" fill=\"var(--yellow)\"/><rect x=\"33\" y=\"108\" width=\"80\" height=\"6\" rx=\"2\" fill=\"var(--prop2)\"/><line x1=\"52\" y1=\"56\" x2=\"52\" y2=\"50\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"52\" y1=\"56\" x2=\"52\" y2=\"88\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"52\" y1=\"88\" x2=\"52\" y2=\"110\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"52\" y1=\"110\" x2=\"31\" y2=\"110\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"52\" y1=\"88\" x2=\"52\" y2=\"110\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"52\" cy=\"43\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"52\" y1=\"56\" x2=\"54.6\" y2=\"70.8\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"54.6\" y1=\"70.8\" x2=\"59.4\" y2=\"57.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"52\" cy=\"110\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"54.6\" cy=\"70.8\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"23\" y=\"102\" width=\"12\" height=\"12\" rx=\"3\" fill=\"var(--yellow)\"/><rect x=\"33\" y=\"108\" width=\"80\" height=\"6\" rx=\"2\" fill=\"var(--prop2)\"/><line x1=\"99.7\" y1=\"84.6\" x2=\"105.19800384227125\" y2=\"82.19751092606634\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"99.7\" y1=\"84.6\" x2=\"71.4\" y2=\"99.7\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"71.4\" y1=\"99.7\" x2=\"52\" y2=\"110\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"52\" y1=\"110\" x2=\"31\" y2=\"110\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"71.4\" y1=\"99.7\" x2=\"52\" y2=\"110\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"111.6\" cy=\"79.4\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"99.7\" y1=\"84.6\" x2=\"106.7\" y2=\"97.9\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"106.7\" y1=\"97.9\" x2=\"111\" y2=\"111.2\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"52\" cy=\"110\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"106.7\" cy=\"97.9\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M60 28 Q98 30 108 66\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "copen": {
+   "nom": "Copenhagen Plank",
+   "objectif": "Prévient les douleurs d'adducteurs liées aux déplacements latéraux.",
+   "consignes": [
+    "Jambe du dessus sur le banc (genou au début)",
+    "Corps aligné, hanches hautes",
+    "Respire, garde la position"
+   ],
+   "a_eviter": "Les hanches qui tombent.",
+   "video": "https://www.youtube.com/results?search_query=copenhagen%20plank%20progression",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"84\" y=\"84\" width=\"32\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"89\" y=\"91\" width=\"4\" height=\"23\" fill=\"var(--prop)\"/><rect x=\"107\" y=\"91\" width=\"4\" height=\"23\" fill=\"var(--prop)\"/><line x1=\"55.1\" y1=\"107.9\" x2=\"76.9\" y2=\"104.9\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"76.9\" y1=\"104.9\" x2=\"97.8\" y2=\"105.6\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"25\" y1=\"97\" x2=\"19.23435032702058\" y2=\"95.33949289418193\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"25\" y1=\"97\" x2=\"55.1\" y2=\"107.9\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"55.1\" y1=\"107.9\" x2=\"71.9\" y2=\"93.8\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"71.9\" y1=\"93.8\" x2=\"90.1\" y2=\"83.3\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"55.1\" y1=\"107.9\" x2=\"71.9\" y2=\"93.8\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"12.5\" cy=\"93.4\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"25\" y1=\"97\" x2=\"25\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"25\" y1=\"112\" x2=\"39\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"71.9\" cy=\"93.8\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"25\" cy=\"112\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"84\" y=\"84\" width=\"32\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"89\" y=\"91\" width=\"4\" height=\"23\" fill=\"var(--prop)\"/><rect x=\"107\" y=\"91\" width=\"4\" height=\"23\" fill=\"var(--prop)\"/><line x1=\"56.3\" y1=\"90.3\" x2=\"76.7\" y2=\"98.6\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"76.7\" y1=\"98.6\" x2=\"92.3\" y2=\"112.6\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"25\" y1=\"97\" x2=\"19.131164365899906\" y2=\"98.24770521354884\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"25\" y1=\"97\" x2=\"56.3\" y2=\"90.3\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"56.3\" y1=\"90.3\" x2=\"77.8\" y2=\"85.8\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"77.8\" y1=\"85.8\" x2=\"98.4\" y2=\"81.4\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"56.3\" y1=\"90.3\" x2=\"77.8\" y2=\"85.8\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"12.3\" cy=\"99.7\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"25\" y1=\"97\" x2=\"25\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"25\" y1=\"112\" x2=\"39\" y2=\"112\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"77.8\" cy=\"85.8\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"25\" cy=\"112\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M56.3 114.3 L56.3 96.3\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "row": {
+   "nom": "Rowing assis poulie basse",
+   "objectif": "Renforce le dos et équilibre l'épaule de frappe.",
+   "consignes": [
+    "Poitrine haute, buste fixe",
+    "Coudes vers les hanches",
+    "Serre les omoplates, retour contrôlé"
+   ],
+   "a_eviter": "Balancer le buste.",
+   "video": "https://www.youtube.com/results?search_query=seated%20cable%20row%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"0\" y=\"8\" width=\"9\" height=\"106\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.2\"/><circle cx=\"8\" cy=\"65.8\" r=\"3\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"65.8\" x2=\"46.5\" y2=\"65.8\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><rect x=\"66\" y=\"100\" width=\"34\" height=\"7\" rx=\"2\" fill=\"var(--prop)\"/><rect x=\"80\" y=\"107\" width=\"5\" height=\"7\" fill=\"var(--prop)\"/><rect x=\"30\" y=\"86\" width=\"6\" height=\"28\" rx=\"2\" fill=\"var(--prop2)\"/><line x1=\"75.3\" y1=\"62.7\" x2=\"74.283652706404\" y2=\"56.786706655441485\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"75.3\" y1=\"62.7\" x2=\"82\" y2=\"94\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"82\" y1=\"94\" x2=\"61.1\" y2=\"87.2\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"61.1\" y1=\"87.2\" x2=\"41.1\" y2=\"93.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"41.1\" y1=\"93.7\" x2=\"41.1\" y2=\"86.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"75.3\" y1=\"62.7\" x2=\"82\" y2=\"94\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"73.1\" cy=\"49.9\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"75.3\" y1=\"62.7\" x2=\"60.5\" y2=\"64.8\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"60.5\" y1=\"64.8\" x2=\"46.5\" y2=\"65.8\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"75.3\" y1=\"62.7\" x2=\"60.5\" y2=\"64.8\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"61.1\" cy=\"87.2\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"60.5\" cy=\"64.8\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><rect x=\"0\" y=\"8\" width=\"9\" height=\"106\" rx=\"2\" fill=\"var(--prop2)\" stroke=\"var(--prop)\" stroke-width=\"1.2\"/><circle cx=\"8\" cy=\"62.5\" r=\"3\" fill=\"var(--prop)\"/><line x1=\"8\" y1=\"62.5\" x2=\"77\" y2=\"70.5\" stroke=\"var(--prop)\" stroke-width=\"1.6\"/><rect x=\"66\" y=\"100\" width=\"34\" height=\"7\" rx=\"2\" fill=\"var(--prop)\"/><rect x=\"80\" y=\"107\" width=\"5\" height=\"7\" fill=\"var(--prop)\"/><rect x=\"30\" y=\"86\" width=\"6\" height=\"28\" rx=\"2\" fill=\"var(--prop2)\"/><line x1=\"83.1\" y1=\"62\" x2=\"83.1\" y2=\"56\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"83.1\" y1=\"62\" x2=\"82\" y2=\"94\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"82\" y1=\"94\" x2=\"61.1\" y2=\"87.2\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"61.1\" y1=\"87.2\" x2=\"41.1\" y2=\"93.7\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"41.1\" y1=\"93.7\" x2=\"41.1\" y2=\"86.7\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"83.1\" y1=\"62\" x2=\"82\" y2=\"94\" stroke=\"var(--hl)\" stroke-width=\"8\" stroke-linecap=\"round\" /><circle cx=\"83.1\" cy=\"49\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"83.1\" y1=\"62\" x2=\"90.2\" y2=\"75.3\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"90.2\" y1=\"75.3\" x2=\"77\" y2=\"70.5\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"83.1\" y1=\"62\" x2=\"90.2\" y2=\"75.3\" stroke=\"var(--hl)\" stroke-width=\"3.5\" stroke-linecap=\"round\" /><circle cx=\"61.1\" cy=\"87.2\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"90.2\" cy=\"75.3\" r=\"1.8\" fill=\"var(--panel)\"/><path d=\"M49 54.5 L73 54.5\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  },
+  "bulgare": {
+   "nom": "Fente bulgare haltères",
+   "objectif": "Force sur une jambe, comme à l'appel et à la réception.",
+   "consignes": [
+    "Pied arrière sur le banc",
+    "Descends droit, genou avant dans l'axe du pied",
+    "Pousse fort dans le talon avant"
+   ],
+   "a_eviter": "Pied avant trop près du banc.",
+   "video": "https://www.youtube.com/results?search_query=bulgarian%20split%20squat%20technique",
+   "schema": "<svg viewBox=\"0 0 248 124\" role=\"img\"> <g transform=\"translate(2 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"64\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"6\" y=\"90\" width=\"36\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"11\" y=\"97\" width=\"4\" height=\"17\" fill=\"var(--prop)\"/><rect x=\"33\" y=\"97\" width=\"4\" height=\"17\" fill=\"var(--prop)\"/><line x1=\"66\" y1=\"70.4\" x2=\"49.1\" y2=\"84.6\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"49.1\" y1=\"84.6\" x2=\"29.4\" y2=\"91.7\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"66\" y1=\"38.4\" x2=\"66\" y2=\"32.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"66\" y1=\"38.4\" x2=\"66\" y2=\"70.4\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"66\" y1=\"70.4\" x2=\"62.2\" y2=\"92.1\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"62.2\" y1=\"92.1\" x2=\"64\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"64\" y1=\"113\" x2=\"71\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"66\" y1=\"70.4\" x2=\"62.2\" y2=\"92.1\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"66\" cy=\"25.4\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"66\" y1=\"38.4\" x2=\"65.5\" y2=\"53.4\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"65.5\" y1=\"53.4\" x2=\"65.5\" y2=\"67.4\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"62.2\" cy=\"92.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"65.5\" cy=\"53.4\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"65.9\" y=\"62.400000000000006\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"61.5\" y=\"59.400000000000006\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"61.5\" y=\"78.4\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">1</text></g></g> <line x1=\"124\" y1=\"14\" x2=\"124\" y2=\"110\" stroke=\"var(--line)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/> <g transform=\"translate(126 2)\"><line x1=\"4\" y1=\"114\" x2=\"116\" y2=\"114\" stroke=\"var(--line)\" stroke-width=\"2\"/><ellipse cx=\"70\" cy=\"115\" rx=\"24\" ry=\"3\" fill=\"var(--shadow)\"/><rect x=\"6\" y=\"90\" width=\"36\" height=\"7\" rx=\"3\" fill=\"var(--prop)\"/><rect x=\"11\" y=\"97\" width=\"4\" height=\"17\" fill=\"var(--prop)\"/><rect x=\"33\" y=\"97\" width=\"4\" height=\"17\" fill=\"var(--prop)\"/><line x1=\"52.9\" y1=\"86.4\" x2=\"45.4\" y2=\"107.1\" stroke=\"var(--fig2)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"45.4\" y1=\"107.1\" x2=\"29.3\" y2=\"93.6\" stroke=\"var(--fig2)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"56.3\" y1=\"54.6\" x2=\"56.90160404266618\" y2=\"48.63023680738945\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><line x1=\"56.3\" y1=\"54.6\" x2=\"52.9\" y2=\"86.4\" stroke=\"var(--fig)\" stroke-width=\"12\" stroke-linecap=\"round\" /><line x1=\"52.9\" y1=\"86.4\" x2=\"74.2\" y2=\"92.1\" stroke=\"var(--fig)\" stroke-width=\"10\" stroke-linecap=\"round\" /><line x1=\"74.2\" y1=\"92.1\" x2=\"72\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"8\" stroke-linecap=\"round\" /><line x1=\"72\" y1=\"113\" x2=\"79\" y2=\"113\" stroke=\"var(--fig)\" stroke-width=\"5\" stroke-linecap=\"round\" /><line x1=\"52.9\" y1=\"86.4\" x2=\"74.2\" y2=\"92.1\" stroke=\"var(--hl)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"57.6\" cy=\"41.7\" r=\"7.5\" fill=\"var(--fig)\"/><line x1=\"56.3\" y1=\"54.6\" x2=\"55.8\" y2=\"69.6\" stroke=\"var(--fig)\" stroke-width=\"7\" stroke-linecap=\"round\" /><line x1=\"55.8\" y1=\"69.6\" x2=\"55.8\" y2=\"83.6\" stroke=\"var(--fig)\" stroke-width=\"6\" stroke-linecap=\"round\" /><circle cx=\"74.2\" cy=\"92.1\" r=\"1.8\" fill=\"var(--panel)\"/><circle cx=\"55.8\" cy=\"69.6\" r=\"1.8\" fill=\"var(--panel)\"/><g><rect x=\"56.199999999999996\" y=\"78.6\" width=\"3.2\" height=\"18\" rx=\"1\" fill=\"var(--prop)\"/><rect x=\"51.8\" y=\"75.6\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/><rect x=\"51.8\" y=\"94.6\" width=\"12\" height=\"5\" rx=\"1.5\" fill=\"var(--prop)\"/></g><path d=\"M100 40 L100 76\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.6\" stroke-linecap=\"round\" marker-end=\"url(#ah)\"/><g><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" fill=\"var(--ink)\"/><text x=\"12\" y=\"16\" text-anchor=\"middle\" font-family=\"JetBrains Mono,monospace\" font-size=\"11\" font-weight=\"700\" fill=\"var(--bg)\">2</text></g></g></svg>"
+  }
+ }
+}
