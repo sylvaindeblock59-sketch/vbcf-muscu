@@ -20,7 +20,7 @@ L'historique est enregistré **sur le téléphone de chaque joueuse**. Il n'y a 
 ## Mise en ligne (GitHub Pages)
 
 1. Sur GitHub, crée un dépôt public nommé `vbcf-muscu`.
-2. Dépose **tout le contenu du dossier** à la racine du dépôt, en gardant le dossier `icons/` (« Add file » → « Upload files »).
+2. Dépose **tous les fichiers** à la racine du dépôt (« Add file » → « Upload files »). Il n'y a aucun sous-dossier.
 3. Va dans **Settings → Pages**, puis choisis Source : *Deploy from a branch*, Branch : `main`, dossier `/ (root)`, et Save.
 4. Une à deux minutes plus tard, l'appli est en ligne à cette adresse :
    `https://sylvaindeblock59-sketch.github.io/vbcf-muscu/`
@@ -55,4 +55,4 @@ Après une modification, vérifie que le fichier est toujours valide (par exempl
 
 - JavaScript ES5 sans bibliothèque, pour la compatibilité Safari iOS.
 - `sw.js` : service worker. Il va d'abord chercher la dernière version sur le réseau et se replie sur la copie hors-ligne quand il n'y a pas de connexion.
-- `manifest.webmanifest` et `icons/` : nom, icône et affichage plein écran.
+- `manifest.webmanifest` et les fichiers `.png` : nom, icône et affichage plein écran.

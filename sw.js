@@ -3,7 +3,7 @@ importScripts('version.js');
 var CACHE = 'vbcf-muscu-' + APP_VERSION;
 var SHELL = [
   './', 'index.html', 'styles.css', 'app.js', 'version.js', 'programme.json', 'manifest.webmanifest',
-  'icons/logo.png', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png'
+  'logo.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png'
 ];
 
 self.addEventListener('install', function (e) {

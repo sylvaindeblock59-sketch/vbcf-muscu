@@ -70,7 +70,7 @@
     document.addEventListener('visibilitychange', function () { if (!document.hidden) { checkUpdate(); if (S.session) tick(); } });
     setTimeout(checkUpdate, 4000);
   }
-  function fail() { $('app').innerHTML = '<div class="loading"><img src="icons/logo.png" alt="" width="96" height="96"><p>Impossible de charger le programme.<br>Vérifie ta connexion puis rouvre l\'appli.</p></div>'; }
+  function fail() { $('app').innerHTML = '<div class="loading"><img src="logo.png" alt="" width="96" height="96"><p>Impossible de charger le programme.<br>Vérifie ta connexion puis rouvre l\'appli.</p></div>'; }
 
   // Compare la version installée à celle en ligne (version.js) et propose de recharger.
   function checkUpdate() {
@@ -120,7 +120,7 @@
 
   function header(sub) {
     var p = poste(S.poste), ui = POSTE_UI[S.poste];
-    return '<header class="top"><img class="logo" src="icons/logo.png" alt="VBCF" width="46" height="46">' +
+    return '<header class="top"><img class="logo" src="logo.png" alt="VBCF" width="46" height="46">' +
       '<div class="ttl"><b>VBCF Muscu</b><span>' + esc(sub || 'Cœur de Flandre · ' + DATA.equipe) + '</span></div>' +
       (p ? '<button class="pill" data-h="#/poste" id="hdPoste">' + icon(ui.ic, ui.c) + esc(p.nom.split(' ')[0]) + '</button>' : '') + '</header>';
   }
@@ -148,7 +148,7 @@
 
   /* ---------- écran : choix du poste ---------- */
   function viewChoose() {
-    var html = '<div class="choose">' + (S.poste ? backBar('Retour') : '<header class="top"><img class="logo" src="icons/logo.png" alt="VBCF" width="46" height="46"><div class="ttl"><b>VBCF Muscu</b><span>Volley Ball Cœur de Flandre</span></div></header>') +
+    var html = '<div class="choose">' + (S.poste ? backBar('Retour') : '<header class="top"><img class="logo" src="logo.png" alt="VBCF" width="46" height="46"><div class="ttl"><b>VBCF Muscu</b><span>Volley Ball Cœur de Flandre</span></div></header>') +
       '<h1>' + (S.poste ? 'Change de poste' : 'Bienvenue !') + '</h1><p>Choisis ton poste : l\'appli te montrera ton programme. Tu pourras le changer quand tu veux dans Profil.</p><div class="postes">';
     for (var i = 0; i < DATA.postes.length; i++) {
       var p = DATA.postes[i], ui = POSTE_UI[p.id];
